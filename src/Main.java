@@ -5,6 +5,7 @@ public class Main {
         // Создание обьекта
         // Задание 1
         Book book = new Book("war and peace", 1869);
+        Book book2 = new Book("Капитанская дочь", 2020);
         System.out.println(book.getName());
         System.out.println(book.getDateOfPublic());
         // Задание 7
@@ -12,11 +13,13 @@ public class Main {
         System.out.println(book.getDateOfPublic());
 
         //  Задание 2
-        Author author = new Author("Lev Tolstoy");
-        System.out.println(author.getAuthor());
+       Author name = new Author("Lev", "Tolstoy");
+       System.out.println(name.getName());
+       System.out.println(name.getSurName());
+       Author name2 = new Author("Alexandr", "Pushkin");
+
         // Задание 6
-        AUthorAndBook show = new AUthorAndBook("Капитанская дочь", "Александр Пушкин");
-        AUthorAndBook show2 = new AUthorAndBook("Исповедь", "Лев Толстой");
+
 
     }
 

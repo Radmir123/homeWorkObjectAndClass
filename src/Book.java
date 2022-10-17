@@ -3,6 +3,7 @@ public class Book {
     //это поле
 private String name;
 private int dateOfPublic;
+
     // Задание 3
     // это конструктор
     public Book (String name, int dateOfPublic){

@@ -1,12 +1,19 @@
 public class Author {
     // Задание 2
-    private String Author;
+    private String name;
+    private String surName;
+
     // Задание 4
-    public Author(String Author){
-        this.Author = Author;
+    public Author(String name, String surName) {
+        this.name = name;
+        this.surName = surName;
     }
 
-    public String getAuthor() {
-        return this.Author;
+    public String getName() {
+        return this.name;
+    }
+
+    public String getSurName() {
+        return this.surName;
     }
 }
